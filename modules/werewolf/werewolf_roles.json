@@ -1,0 +1,185 @@
+{
+  "lang": "tr",
+  "aura_seer": {
+    "aura": "good",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "Every night you can see if a player you choose is good, bad or unknown. Bad players are included in the werewolf team, and good players are in the village team. Unknowns are also lonely parties.",
+      "tr": "Her gece seçtiğin bir oyuncunun iyi, kötü veya bilinmeyen olduğunu görebilirsin. Kötü oyuncular kurt adam takımına, iyi oyuncular köy takımına dahildir. Bilinmiyenler de yanlız taraflardır."
+    },
+    "name_tr": "Aura Gözcüsü",
+    "nighttime_commands": [
+      "kontrol et"
+    ],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "betrayer": {
+    "aura": "bad",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "A human but betrays Villagers. Betrayer knows werewolf players.",
+      "tr": "Bir insansın ama hainsin. Haainler kurt adam olarak bilinirler."
+    },
+    "name_tr": "Hain",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villains"
+  },
+  "cupid": {
+    "aura": "good",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "On the first day, Cupid can choose 2 players and make them to be a couple. If one of them is dead, the other will be also dead. If the couple belongs to different parties (Werewolf and Villager), then they become the third party. Their mission is to be the last stand players.",
+      "tr": "İlk gün 2 oyuncu seçip onları çift yapabilirsin. Eğer aralarından biri ölürse diğeri de ölür. Eğer ikisi farklı taraflara (Kurt Adam ve Köylü) aitse, üçüncü bir taraf olurlar ve görevleri hayatta kalan son kişiler olmak olur."
+    },
+    "name_tr": "Çöpçatan",
+    "nighttime_commands": [
+      "çift yap"
+    ],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "cursed": {
+    "aura": "-",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "You are a normal villager until werewolves attack you, when they attack you turn into a werewolf.",
+      "tr": "Kurt adamlar sana saldırana kadar normal bir köylüsün, saldırdıklarında kurt adama dönüşürsün."
+    },
+    "name_tr": "Lanetli",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers-villains"
+  },
+  "fool": {
+    "aura": "-",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "Your goal is to be executed by the villagers. If they execute you, you win.",
+      "tr": "Amacın Köylüler tarafından idam edilmek. Seni idam ederlerse kazanırsın."
+    },
+    "name_tr": "Soytarı",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 30,
+    "team": "solo"
+  },
+  "guard": {
+    "aura": "good",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "Guards a player: Protect the player from being killed.",
+      "tr": "Bir oyuncuyu öldürülmekten korursun."
+    },
+    "name_tr": "Koruma",
+    "nighttime_commands": [
+      "koru"
+    ],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "gunner": {
+    "aura": "-",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "A villager but is seen as a Werewolf.",
+      "tr": "Bir köylüsün ama Kurt Adam gibi gözüküyorsun."
+    },
+    "name_tr": "Silahşor",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "moderator": {
+    "aura": "-",
+    "daytime_command": "",
+    "dec": {
+      "en": "You are a game moderator.",
+      "tr": "Oyunun yöneticisisin."
+    },
+    "name_tr": "Moderatör",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 100,
+    "team": "-"
+  },
+  "president": {
+    "aura": "-",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "You are the president! Everyone knows who you are! If you die, the village loses.",
+      "tr": "Sen başkansın! Herkes senin kim olduğunu biliyor! Eğer ölürsen köy kaybeder."
+    },
+    "name_tr": "Başkan",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "seer": {
+    "aura": "good",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "You can see someone's role every night.",
+      "tr": "Her gece birinin rolünü görebilirsin."
+    },
+    "name_tr": "Gözcü",
+    "nighttime_commands": [
+      "gözlemle"
+    ],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  },
+  "villager": {
+    "aura": "good",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "A simple villager.",
+      "tr": "Basit bir köylü. Sabahları oylama ile kurt adamları ortaya çıkarmaya çalışır."
+    },
+    "name_tr": "Köylü",
+    "nighttime_commands": [],
+    "player_count": 1,
+    "probability": 70,
+    "team": "villagers"
+  },
+  "werewolf": {
+    "aura": "bad",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "Chooses a player to kill at night.",
+      "tr": "Akşamları köylülere öldürüp köyü ele geçirmeye çalışır."
+    },
+    "name_tr": "Kurt Adam",
+    "nighttime_commands": [
+      "öldür"
+    ],
+    "player_count": 1,
+    "probability": 40,
+    "team": "villains"
+  },
+  "witch": {
+    "aura": "-",
+    "daytime_command": "oyla",
+    "dec": {
+      "en": "Can reborn a dead player, and also can curse an alive player once per game.",
+      "tr": "Ölü bir oyuncuyu yeniden canlandırabilir ve bir oyuncuyu oyun başında bir kez lanetleyebilirsin."
+    },
+    "name_tr": "Cadı",
+    "nighttime_commands": [
+      "canlandır",
+      "zehirle"
+    ],
+    "player_count": 1,
+    "probability": 30,
+    "team": "villagers"
+  }
+}
